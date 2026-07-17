@@ -1,0 +1,445 @@
+
+.wrapper {
+    margin: auto;
+    max-width: 1200px;
+
+}
+
+main {
+    padding: 5px 40px;
+    margin: 10px 0;
+}
+
+
+body {
+background: linear-gradient(
+    135deg,
+    #111827,
+    #1f2937,
+    #374151,
+    #2862a8
+);}
+
+.active {
+    border-bottom: 3px solid #4cc9f0;
+    
+}
+
+
+
+.blue {
+    color: #709bf7;
+}
+
+
+h1 {
+    color: #4cc9f0;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+h2 {
+    color: #709bf7;
+    font-weight: bolder;
+    font-size: 25px;
+    /* background-color: #04152d; */ 
+}
+
+h3 {
+    color: #709bf7;
+    font-weight: bolder;
+}
+
+h4 {
+    color: #709bf7;
+    font-weight: bolder;
+}
+
+
+p {
+    color:  #d5e1f4;
+    font-size: 20px;
+    /* text-align: center;  */
+}
+
+a {
+    color: #4cc9f0;
+}
+
+li {
+    color: #d5e1f4;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.remove-bullets {
+    list-style-type: none;
+}
+
+.centered {
+    text-align: center;
+    /* margin-left: 20%; */
+    font-size: 20px;
+}
+
+
+
+/* Header */
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color:#04152d;
+    margin: auto;
+    max-width: auto;
+}
+
+
+nav {
+    flex-wrap: wrap;
+}
+
+.nav-color a {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-decoration: none; 
+    font-size: 18px;
+}
+
+
+
+/* Hover text */
+#hover:hover {
+  background-color: #264b8a;}
+
+
+header {
+    max-width: 94%; 
+     
+}
+
+
+
+.list-position {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+
+.list-position li {
+    display: flex;
+    padding: 5px;
+    justify-content: end;
+}
+
+.list-position h2 {
+    display: flex;
+    justify-content: center;
+} 
+
+
+.list-position ul {
+    display: flex;
+    justify-content: end;
+    max-width: 100%;
+    gap: 10px;
+} 
+
+ 
+ 
+
+
+
+/* Main section*/
+
+/* The banner is squishing on the portfolio page and on mobile device */
+.banner {
+    max-height: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block; 
+}
+
+
+
+.banner2 {
+
+    max-width: 100%;
+    position: contain;
+}
+
+
+
+
+/* Introduction section*/
+
+/* Circular photo */
+.photo-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+
+}
+
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid black;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Projects section */
+
+.project-style {
+    background-color: #0c1725;
+    border: 6px solid;
+    border-image: linear-gradient(
+        90deg,
+        #21345e,
+        #000708,
+        #011951
+    )1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
+
+}
+
+
+
+.project-color {
+    background-color: #0c1725
+       
+}
+
+.project-left {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.digital-art {
+    margin-left: 50%;
+    
+}
+
+/* .link-center {
+    margin-left: 40%;
+  padding-top: 20px;
+} */
+
+
+ .blue-text {
+    color:  #709bf7;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+.picture-center {
+    display: inline-block;
+    margin-left: 42%;
+    /* margin-right: 40%; */
+    padding-top: 20px;
+    max-width: 1200px;
+}
+
+.ux-group-project {
+   display: inline-block;
+    gap: 10px;
+    align-items: top;
+    margin-left: 30%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    max-width: 1200px;
+}
+
+.ux-group-project img {
+    width: 9px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(113, 111, 111, 0.2);
+    transition: opacity 0.3s;
+}
+
+.ux-group-project img:hover {
+    opacity: 0.8;
+}
+
+
+
+.figma-designs {
+    margin-left: 43%;
+    padding-bottom: 20px;
+}
+
+/* Project Page */
+
+.margins {
+    margin-left: 20px;
+}
+
+.intro-margin {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    width: 70%;
+    margin-left: 10%;
+    
+    
+}
+
+.project-link {
+    color: #4cc9f0;
+}
+
+/* Resume Page */
+.resume-style {
+    background-color: #0c1725;
+    color: white;
+    border: 6px solid;
+    border-image: linear-gradient(
+        90deg,
+        #21345e,
+        #000708,
+        #011951
+    )1;
+    max-width: 1200px;
+    padding: 10px 20px 10px 20px;
+}
+
+.resume-h3 {
+    color: white;
+
+}
+
+.padding {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.inline-list {
+    display: inline-block;
+    align-items: top;
+}
+
+/* footer / Contact Info */
+
+footer {
+    border: 4px solid;border-image: linear-gradient(
+        90deg,
+        #21345e,
+        #000708,
+        #011951
+    )1;
+    text-align: center;
+    background-color: #111827;
+    margin: auto;
+    max-width: 1200px; 
+    padding-bottom: 10px;
+    margin-top: 75px;
+}
+
+
+
+.contact-buttons {
+    display: flex; 
+    gap: 20px;
+    max-width: 100%;
+    margin-left: 480px;
+}
+
+.back-to-top {
+    /* background-color: rgb(73, 105, 113); */
+    width: 10%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* style="display: flex; gap: 15px; align-items: center;" */
+
+
+
+
+
+/* Web Dev Skills */
+/* Responsive Web Design
+VS Code
+Website Layout and Structure
+Navigation Design
+Cross-Browser Compatibility
+Website Testing and Debugging
+Search Engine Optimization (SEO) Fundamentals
+Problem Solving and Troubleshooting
+Visual Design Implementation
+Content Organization
+Project Planning and Documentation */
+
+/* UX DESIGN SKILLS
+User Research
+User Interviews
+Persona Development
+Empathy Mapping
+Journey Mapping
+Competitive Analysis
+Information Architecture
+User Flow Creation
+Wireframing
+Low- and High-Fidelity Prototyping
+Usability Testing
+Accessibility and Inclusive Design
+Design Thinking
+Interaction Design
+Visual Communication
+Problem Solving
+Iterative Design
+Stakeholder Collaboration
+Presentation and Communication Skills */
+
+
+                /* <h3>Skills Developed</h3>
+                    <ul>
+                        <li>Digital Illustration </li>
+                        <li>Graphic Design</li>
+                        <li>User Interface (UI)Design</li>
+                        <li>User Experience (UX) Design</li>
+                        <li>Wireframing & Prototyping </li>
+                        <li>Branding & Visual Identity </li>
+                        <li>Social Media Design </li>
+                        <li>Marketing Graphics </li>
+                        <li>Visual Storytelling </li>
+                        <li>Color Thoery Compsition</li>
+                        <li>Creative Porblem Solving</li>
+                        <li>Design Thinking</li>
+                    </ul>  */
+
+                    /* UX Design Summary*/
+                    /* These experiences have strengthened my ability to design digital products and services that are accessible, user-friendly, and responsive to the needs of diverse audiences while maintaining a focus on usability, functionality, and continuous improvement. */
+
+                    /* Digital Design summary This portfolio represents my passion for creative design, continuous learning, and the use of digital tools to develop meaningful visual experiences that inform, engage, and inspire audiences. */
+
+                    /* Web-Dev summary These experiences have strengthened my ability to build modern, responsive websites that provide positive user experiences while meeting both functional and design requirements. Through continuous learning and hands-on development, I continue to expand my technical skills and knowledge of emerging web technologies. */
+
+                    
+
